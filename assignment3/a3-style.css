@@ -1,0 +1,79 @@
+#divexample{
+    background-color:darkgrey;
+  }
+
+.divtextc{
+    color: teal;
+}
+
+.spanstyle{
+    color: teal;
+}
+
+p{
+    color: lightgray;
+}
+
+p{
+    background-color: teal;
+}
+
+body{
+    background-color: thistle;
+}
+
+#heading{
+    color: teal;
+}
+
+.headingc2{
+   color: teal;
+}
+
+.headingc3{
+    color: olive;
+ }
+
+.headingc4{
+    color: darkslategray;
+}
+
+.body{
+    p{
+        color: lightgray;
+    }
+    
+    p{
+        background-color: teal;
+    }
+    
+    body{
+        background-color: thistle;
+    }
+}
+
+.li{
+    color: lightgray;
+    
+    background-color: teal;
+}
+
+a {
+    color: #ff0000;
+  }
+  
+  a:link {
+    color: #ff0000;
+  }
+  
+  a:visited {
+    color: #00ff00;
+  }
+  
+  a:active {
+    color:purple;
+  }
+  
+  a:hover {
+    color: #ffff00;
+  }    
