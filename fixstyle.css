@@ -1,0 +1,56 @@
+.style{
+    background-color: #ccccff;
+  } 
+
+  a {
+    color: #00c71e;
+  }
+  
+  a:hover {
+    color: red;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+    .head1{
+        color: white;
+    }
+
+    .head2{
+        color: blue;
+    } 
+
+    .head3{
+        background-color: yellow;
+    }
+
+    #paracolor{
+        color: red;
+    }    
+
+    .head4{
+        color: yellow;
+        background-color: green;
+    }
+
+    .boldcolor1{
+        color: orange;
+    }
+
+    .style2{
+        background-color: lightgreen;
+    }
+
+    .head5{
+    color: red;
+    }
+
+    .style3{
+        background-color: yellow;
+    }
+
+    .boldcolor2{
+        color: blue;
+    }
