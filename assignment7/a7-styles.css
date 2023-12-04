@@ -1,0 +1,136 @@
+body { background-color: #999999; }
+
+#wrapper {
+  margin: 1px auto;
+  padding: 0px;
+  width: 960px;
+  border: 4px solid #2138ad;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+nav{
+  grid-column: span 3;
+  background-color: #99dff3;
+  padding: 20px;
+}
+
+aside{
+  grid-column: span 3;
+  background-color: #99dff3;
+  padding: 20px;
+}
+
+header{
+grid-column: span 12;
+  background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+  padding: 10px 10px 10px 10px;
+}
+
+header ul{
+grid-column: span 4;
+list-style-type: none;
+display: block;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  width: 200px;
+  display: inline-block;
+}
+
+header li a {
+  display: block;
+background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #2138ad);
+
+  padding: 1em;
+  color: #65deff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: helvetica;
+}
+
+li a:hover{
+
+    background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+  color: #ffffff;
+}
+
+
+main{
+  grid-column: span 9;
+  padding: 20px;
+}
+
+.image1{
+    margin: 15px 15px 15px 15px;
+  float:left;
+  border: 3px solid #2138ad 
+}
+
+.image3{
+  margin: 15px 15px 15px 15px;
+  float:right;
+  border: 3px solid #2138ad 
+}
+
+.image4{
+padding: 20px;
+
+}
+.image5{
+padding: 20px;
+
+}
+.image6{
+padding: 20px;
+
+}
+
+
+h1 a{
+  font-style:italic;
+  text-decoration: none;
+    color: #65deff;
+font-family: helvetica;
+font-weight: normal;
+}
+
+h1 a:hover{
+  color: #ffffff;
+}
+
+h2 {
+  color: #2138ad;
+  border-bottom: 3px solid #2138ad;
+  font-family: helvetica;
+  font-weight: normal;
+}
+
+footer{
+  grid-column: span 12;
+  border: 3px solid #2138ad;
+  padding: 15px;
+  background-color: #b80101;
+}
+
+main a{
+  text-decoration: none;
+  color: red;
+}
+
+main a:hover{
+  color: blue;
+  text-decoration: underline;
+}
+.p1{
+  font-weight: bold;
+text-align: justify;
+}
