@@ -1,0 +1,270 @@
+body {
+  background-color: #999;
+  background-image: url(Watercolor1.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}      
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  /* background-color: #ffffff; */
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+
+}
+
+.wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  /* background-color: #ffffff; */
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  padding-left: 150px;
+}
+
+.Box{
+  grid-column: span 4;
+}
+
+.AboutMeBox{
+  /* padding: 10px; */
+  width: 350px;
+  height: 500px;
+  /* border: 2px solid #3EB489; */
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.ABText{
+  text-align: center;
+  border-radius: 10px;
+  border: 3px solid #69e4b7;
+  /* background-color: #69e4b7; */
+  padding: 14px;
+  padding-top: 148px;
+}
+
+.ResumeGrid{
+  justify-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.AMPBox{
+  /* padding: 10px; */
+  width: 450px;
+  height: 250px;
+  /* border: 2px solid #87CEEB; */
+  border-radius: 10px;
+}
+
+.AMPColor{
+  background-color: #90e0ff;
+}
+
+.AMPColor2{
+  background-color: #caf0ff;
+}
+
+.TextEdit{
+color: #101010;
+padding: 5px;
+}
+
+/* .TextEdit2{
+  color: #fff;
+} */
+
+.TextEdit3{
+  color: #fff;
+  background-color: #b482e6;
+  border-radius: 10px;
+}
+
+.SDHead{
+text-align: center;
+}
+
+h1 { font-family: 'Fascinate', cursive; }
+h2 { 
+  font-family: 'Fascinate', cursive; 
+  color:#ffffff;
+}
+.GoogFont{
+  font-size: large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.Center{
+  /* align-items: center;
+  justify-content: center;
+  justify-items: center; */
+  text-align: center;
+}
+
+.AMPGrid{
+  justify-content: left;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.Circle{
+    padding: 10x;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;  
+    background-color: #ffffff;
+    justify-self: center;
+}
+
+.HeadLogo{
+  /* float:center;
+  padding: 10x; */
+  padding-right: 70px;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+      border-radius: 300px;
+  }
+
+.Logo1{
+float:left;
+/* margin: 15px 15px 15px 15px;
+padding: 20px;
+border: 3px solid #2138ad  */
+padding: 10x;
+width: 150px;
+/* height: 350px; */
+    border-radius: 150px; 
+}
+
+ul{
+  list-style-type: none;
+}
+
+header{
+  grid-column: span 12;
+    padding: 10px 10px 10px 10px;
+    justify-self: center;
+    padding-left: 40px;
+  }
+
+header ul{
+  grid-column: span 4;
+  list-style-type: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+  }
+
+header li {
+  width: 200px;
+  display: inline-block;
+}
+
+header li a {
+  display: block;
+  padding: 1em;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li a:hover{
+  color: #9567c2;
+}
+
+
+.DropShadow1 {
+  /* padding: 10px;
+  margin: 20px;
+  width: 250px; */
+  box-shadow: 20px 20px 20px #CF9FFF
+}
+
+.DS2 {
+  box-shadow: 20px 20px 20px #ADD8E6
+}
+
+.DS3 {
+  box-shadow: 20px 20px 20px #3EB489
+}
+
+.PAD{
+  padding-left: 360px;
+}
+
+
+.AboutMe{
+  padding-right: 20px;
+  text-align: center;
+  font-size:xx-large 
+}
+
+
+.H1Edit{
+  text-align: center;
+  font-size:xx-large
+}
+
+nav{
+  grid-column: span 3;
+  /* background-color: #99dff3; */
+  padding: 20px;
+}
+
+main{
+  grid-column: span 9;
+  padding: 20px;
+}
+
+footer{
+  grid-column: span 12;
+  padding: 0px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.FootPAD1{
+  padding-top: 16px;
+  }
+
+.FootPAD2{
+padding-right: 260px;
+}
+
+.FootPAD3{
+  padding-bottom: 20px;
+  }
+
+.p1{
+text-align: justify;
+}
+
+.Art1{
+  margin: 15px 15px 15px 15px;
+float:left;
+/* border: 3px solid #2138ad  */
+}
+
+.FancyBox{
+    /* margin: 1em auto;
+    width: 960px; */
+    border: 3px solid #9567c2;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 1em;
+}
+
+a {
+  text-decoration: none;
+  color:#3EB489 ;
+}
+
+a:hover{
+  color: #9567c2;
+}
